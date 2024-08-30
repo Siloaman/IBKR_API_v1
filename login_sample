@@ -1,0 +1,36 @@
+pip install ib_insync
+
+from ib_insync import *
+
+util.startLoop()  # only use in interactive environments (i.e. Jupyter Notebooks)
+# https://algotrading101.com/learn/ib_insync-interactive-brokers-api-guide/
+
+ib = IB()
+ib.connect(host='127.0.0.1', port=7496, clientId=1)
+# https://www.elitetrader.com/et/threads/cant-connect-to-api-interactive-brokers.361205/
+# needed to change socket port to 7496 and uncheck the Read-Only API box
+
+# for this to work, Market Data Subscriber Status needs to be updated for a subscription
+
+nflx_contract = Stock('NFLX', 'SMART', 'USD')     # netflix ticker, 'smart' search for routing exchange, currency of ticker
+
+ib.qualifyContracts(nflx_contract)
+
+data = ib.reqMktData(nflx_contract)
+
+data.marketPrice()
+
+# Retrieving Historical Data
+
+historical_data_nflx = ib.reqHistoricalData(
+    nflx_contract, 
+    '', 
+    barSizeSetting='15 mins', 
+    durationStr='2 D', 
+    whatToShow='MIDPOINT', 
+    useRTH=True
+    )
+
+historical_data_nflx[-1]      #  access the most recent candle, just like any other Python list, by using a negative index.
+# https://www.interactivebrokers.com/campus/ibkr-api-page/market-data-subscriptions/
+historical_data_nflx[-1].open
