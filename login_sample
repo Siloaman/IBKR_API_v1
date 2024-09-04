@@ -48,3 +48,5 @@ for _ in range(100):
     time.sleep(0.5)
 else:
     print('Order is still active')
+
+# The above code will check if the trade is no longer active. If so, it will break out of the loop and exit. Otherwise, it will sleep for half a second and check again.
