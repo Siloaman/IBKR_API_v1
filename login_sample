@@ -58,3 +58,6 @@ nflx_bracket_order = ib.bracketOrder(
     takeProfitPrice=1.20,
     stopLossPrice=1.18
 )
+
+for ord in nflx_bracket_order:
+    ib.placeOrder(nflx_order, ord)
