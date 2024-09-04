@@ -34,3 +34,17 @@ historical_data_nflx = ib.reqHistoricalData(
 historical_data_nflx[-1]      #  access the most recent candle, just like any other Python list, by using a negative index.
 # https://www.interactivebrokers.com/campus/ibkr-api-page/market-data-subscriptions/
 historical_data_nflx[-1].open
+
+# buy Netflix
+nflx_order = MarketOrder('BUY', 200)
+trade = ib.placeOrder(nflx_contract, nflx_order)    # we have created a contract, an order and then submitted through placeOrder function
+trade.log
+trade.orderStatus.status
+
+for _ in range(100):
+    if not trade.isActive():
+        print(f'Your order status - {trade.orderStatus.status}')
+        break
+    time.sleep(0.5)
+else:
+    print('Order is still active')
