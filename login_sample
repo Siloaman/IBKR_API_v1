@@ -61,3 +61,7 @@ nflx_bracket_order = ib.bracketOrder(
 
 for ord in nflx_bracket_order:
     ib.placeOrder(nflx_order, ord)
+
+
+# Run indefinitely
+ib.run()
