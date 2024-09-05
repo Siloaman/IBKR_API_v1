@@ -65,3 +65,15 @@ for ord in nflx_bracket_order:
 
 # Run indefinitely
 ib.run()
+
+def place_order(direction, qty, df, tp, sl):
+    bracket_order = ib.bracketOrder(
+        direction,
+        qty,
+        limitPrice=df.close.iloc[-1],
+        takeProfitPrice=tp,
+        stopLossPrice=sl,
+    )
+
+    for ord in bracket_order:
+        ib.placeOrder(contract, ord)
