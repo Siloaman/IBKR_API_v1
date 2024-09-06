@@ -1,3 +1,6 @@
+
+![WHLR_mod](https://github.com/user-attachments/assets/8b17eb0b-0804-4e60-b820-642345b56dfc)
+
 track limit orders placed with coded bids ( 0.0144 = track all day or 0.0155 = PAS)
 move SL based on thresholds throughout the day...
 
