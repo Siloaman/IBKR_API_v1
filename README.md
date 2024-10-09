@@ -12,4 +12,5 @@ now own 700 share and $330
 shares go back down to 0% -> sell all ($700 + $330 = $1030 or +3%)
 shares go up to +30% (sell all ($910 + $330 = $1240 or +24%)
 
-all trades are a mazimum of 1/10 of total equity value
+I want at least +$100 per trade, therefore from $10000 upwards all trades are a maximum of 1/10 of total equity value
+Below that with a starting value of $2000 we can aim for 1/4 of total equity value
