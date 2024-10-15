@@ -2,13 +2,13 @@
 
 
 track limit orders placed with coded bids 
-(   
+(<br/>    
     0.0144 = track all day<br/> 
     0.0155 = PAS<br/>
     0.0164 = Insta-Buy Quarter Equity (market)<br/>
     0.0162 = Insta-Buy Half Equity (market)<br/>
     0.0161 = Insta-Buy Full Equity (market)<br/>
-)
+)<br/> 
 move SL based on thresholds throughout the day...
 
 1000 shares at $1.00
