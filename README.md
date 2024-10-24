@@ -15,6 +15,8 @@ track limit orders placed with coded bids<br/>
 )<br/> 
 move SL based on thresholds throughout the day...
 
+Buy in should be 7/6 stop to 8/6 limit... (just under R-35 of the next bar if its similar sized)
+
 1000 shares at $1.00
 goes up by 10%
 sell 30% of shares (300)
