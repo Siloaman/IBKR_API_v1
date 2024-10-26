@@ -13,6 +13,8 @@ ib.connect(host='127.0.0.1', port=7496, clientId=1)
 
 # for this to work, Market Data Subscriber Status needs to be updated for a subscription
 
+ib.positions();
+
 nflx_contract = Stock('NFLX', 'SMART', 'USD')     # netflix ticker, 'smart' search for routing exchange, currency of ticker
 
 ib.qualifyContracts(nflx_contract)
