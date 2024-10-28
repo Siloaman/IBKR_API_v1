@@ -8,6 +8,8 @@
 
 mimimum price variation of 0.0001
 
+when a person has reached +$40,000 USD, stop investing?
+
 track limit orders placed with coded bids<br/>     
 (<br/>    
     0.0144 = track all day<br/> 
