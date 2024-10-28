@@ -13,7 +13,18 @@ ib.connect(host='127.0.0.1', port=7496, clientId=1)
 
 # for this to work, Market Data Subscriber Status needs to be updated for a subscription
 
-ib.positions();
+# functions I'll likely need
+ib.positions((account='');            # List of positions for the given account, or of all accounts if account is left blank.
+openTrades();                         # List of all open order trades.
+ib.orders();                          # List of all orders from this session.
+realtimeBars();                        # Get a list of all live updated bars. These can be 5 second realtime bars or live updated historical bars.
+bracketOrder(action, quantity, limitPrice, takeProfitPrice, stopLossPrice, **kwargs);
+placeOrder(contract, order)
+cancelOrder(order, manualCancelOrderTime='')
+reqHistoricalData(contract, endDateTime, durationStr, barSizeSetting, whatToShow, useRTH, formatDate=1, keepUpToDate=False, chartOptions=[], timeout=60) 
+# bar size setting should be '5 mins'
+cancelHistoricalData(bars)
+asyncconnectAsync(host='127.0.0.1', port=7497, clientId=1, timeout=4, readonly=False, account='', raiseSyncErrors=False)
 
 nflx_contract = Stock('NFLX', 'SMART', 'USD')     # netflix ticker, 'smart' search for routing exchange, currency of ticker
 
