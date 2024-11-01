@@ -2,6 +2,8 @@
 * ITS HARD TO SELF-MOTIVATE, SO WE WILL HAVE PEOPLE IN OUR LIVES INSTRUCTING OUR PROGRESS (COOKING DINNER, ROBOTICS, LANGUAGE, ETC)
 * KEEP OURSELVES BUSY AND FULFILLING GOALS AND PURPOSES ALWAYS
 
+* FIRE PITS and BARBEQUES IN NATURE
+
 ![Oct15_DRUG_0](https://github.com/user-attachments/assets/8db4848a-10c1-465e-9993-68615a015c0c)
 ![Oct15_DRUG](https://github.com/user-attachments/assets/51f8f243-1bfe-43f9-9eea-756c9fb6db63)
 ![Oct15_DRUG_2](https://github.com/user-attachments/assets/f616b22d-7f33-4911-b578-2e53f9b62743)
