@@ -1,3 +1,12 @@
 make my home computer a server
 run processes off main computer and access remotely
 learn/write code to do all the necessary steps
+
+
+need 5-min OHLC data for last 6 bars
+calculate sizes and ranges
+
+calculate total equity 
+calculate left over equity after dividing for buying stocks
+
+set max trade block at $10000 USD
