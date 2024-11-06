@@ -9,6 +9,9 @@
 ![Oct15_DRUG_2](https://github.com/user-attachments/assets/f616b22d-7f33-4911-b578-2e53f9b62743)
 ![Oct31_STEC](https://github.com/user-attachments/assets/45090e09-4db5-4839-ab82-994aeea0392b)
 ![March11_24_STI](https://github.com/user-attachments/assets/b9181108-ae5b-4080-9659-1391c908954e)
+![Nov5_ZCAR](https://github.com/user-attachments/assets/68d29f01-9214-407c-8695-964168d61e4a)
+![Nov6_ARBB](https://github.com/user-attachments/assets/1aaad081-597a-403c-b0bc-cd82c77dc1dd)
+
 
 
 mimimum price variation of 0.0001
