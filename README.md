@@ -2,6 +2,8 @@
 * ITS HARD TO SELF-MOTIVATE, SO WE WILL HAVE PEOPLE IN OUR LIVES INSTRUCTING OUR PROGRESS (COOKING DINNER, ROBOTICS, LANGUAGE, ETC)
 * KEEP OURSELVES BUSY AND FULFILLING GOALS AND PURPOSES ALWAYS
 
+* have accounts set up for friends that built up to 40K USD, then make successful trades once a month. if it hits +10% (~5500 cad) then send the money directly to their chequing account and cease trades for the rest of the month so that the rest of the days belong to me without competition)
+
 * FIRE PITS and BARBEQUES IN NATURE
 
 ![Oct15_DRUG_0](https://github.com/user-attachments/assets/8db4848a-10c1-465e-9993-68615a015c0c)
