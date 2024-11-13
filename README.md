@@ -14,7 +14,8 @@
 ![Nov5_ZCAR](https://github.com/user-attachments/assets/68d29f01-9214-407c-8695-964168d61e4a)
 ![Nov6_ARBB](https://github.com/user-attachments/assets/1aaad081-597a-403c-b0bc-cd82c77dc1dd)
 ![allall](https://github.com/user-attachments/assets/02cca5fb-eca8-4027-a0ee-fb7e55ec3bdc)
-![Nov12_BTCT](https://github.com/user-attachments/assets/6951f70b-e18e-4df0-990b-0d38444a221c)
+![Nov12_BTCT](https://github.com/user-attachments/assets/dec26781-32be-43fa-962c-c3caec4980b9)
+
 
 
 
