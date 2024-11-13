@@ -25,6 +25,20 @@ for trade in trades:
 print(matching_symbols)
 
 ===========================================================================================================
+pseudo
+
+for symbols in matching_symbols:
+    contract = (symbols, "smart", "usd")
+
+    bars = ib.reqHistoricalData ( ... 5 mins ... )
+
+bars.updateEvent += onBarUpdate
+
+[ trade logic ]
+
+keep looping throughout day
+
+===========================================================================================================
 
 contract = Forex('EURUSD')
 
