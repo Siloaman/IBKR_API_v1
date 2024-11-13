@@ -28,7 +28,7 @@ print(matching_symbols)
 pseudo
 
 for symbols in matching_symbols:
-    contract = (symbols, "smart", "usd")
+    contract = (symbols, "smart", "usd")        # use SCANNERS to input new data so i don't disrupt the api running with my phone!!!!
 
     bars = ib.reqHistoricalData ( ... 5 mins ... )
 
