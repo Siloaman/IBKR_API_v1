@@ -34,6 +34,10 @@ for symbols in matching_symbols:
 
 bars.updateEvent += onBarUpdate
 
+Stop-loss orders
+Automatically sell a security when it reaches a specified price. However, if the price gaps above the stop price, the order will trigger and the stock will be sold at the next available price. 
+
+
 [ trade logic ]
 
 keep looping throughout day
