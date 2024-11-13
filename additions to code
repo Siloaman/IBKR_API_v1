@@ -1,0 +1,27 @@
+# Sample data structure
+trades = [
+    {
+        'contract': {'symbol': 'DRUG'},
+        'order': {'lmtPrice': 0.0155}
+    },
+    {
+        'contract': {'symbol': 'CERO'},
+        'order': {'lmtPrice': 0.0155}
+    },
+    {
+        'contract': {'symbol': 'TEST'},
+        'order': {'lmtPrice': 0.0200}
+    }
+]
+
+# List to hold symbols with lmtPrice == 0.0155
+matching_symbols = []
+
+# Iterate through the trades
+for trade in trades:
+    if trade['order']['lmtPrice'] == 0.0155:
+        matching_symbols.append(trade['contract']['symbol'])
+
+print(matching_symbols)
+
+===========================================================================================================
