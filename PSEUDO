@@ -48,3 +48,7 @@ ib.pendingTickersEvent -= onPendingTickers
 
 # Run infinitely
 ib.run()
+
+if trade.orderStatus.status == 'Filled':
+        ib.disconnect()
+        quit(0)
