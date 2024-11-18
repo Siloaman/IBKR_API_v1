@@ -46,4 +46,5 @@ ib.pendingTickersEvent -= onPendingTickers
 
 # LOOP THROUGHOUT DAYTIME
 
-ib.disconnect()
+# Run infinitely
+ib.run()
