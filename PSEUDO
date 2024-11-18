@@ -4,6 +4,7 @@ util.startLoop()
 ib = IB()
 ib.connect('127.0.0.1', 7497, clientId=0)
 
+# GRAB APPROPRIATE SYMBOLS
 
 sub = ScannerSubscription(
     instrument='STK', 
@@ -21,5 +22,23 @@ scanData = ib.reqScannerData(sub, [], tagValues)
 
 symbols = [sd.contractDetails.contract.symbol for sd in scanData]
 print(symbols)
+
+# CREATE CONTRACTS FOR SAID SYMBOLS
+
+contracts = [Forex(pair) for pair in ('EURUSD', 'USDJPY', 'GBPUSD', 'USDCHF', 'USDCAD', 'AUDUSD')]
+ib.qualifyContracts(*contracts)
+
+for contract in contracts:
+    ib.reqMktData(contract, '', False, False)
+
+# TRACK THE CONTRACTS / OR JUST MAKE SPLIT SECOND DECISIONS BASED ON WHAT THE DATA SAYS NOW.
+
+# question: when we get historical bars (say last 5), do we get last 5 fully formed, or last 4 FF and the 5th currently forming in minute 4?
+
+# SET UP BRACKETED ORDERS (BASED ON POSITIVE MOVEMENT)
+
+# LOG DATA FOR REVIEW
+
+# LOOP THROUGHOUT DAYTIME
 
 ib.disconnect()
