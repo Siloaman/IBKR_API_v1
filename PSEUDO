@@ -35,6 +35,11 @@ for contract in contracts:
 
 # question: when we get historical bars (say last 5), do we get last 5 fully formed, or last 4 FF and the 5th currently forming in minute 4?
 
+# track changing tickers every 30 seconds and update values
+ib.pendingTickersEvent += onPendingTickers
+ib.sleep(30)
+ib.pendingTickersEvent -= onPendingTickers
+
 # SET UP BRACKETED ORDERS (BASED ON POSITIVE MOVEMENT)
 
 # LOG DATA FOR REVIEW
