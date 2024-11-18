@@ -23,6 +23,9 @@ scanData = ib.reqScannerData(sub, [], tagValues)
 symbols = [sd.contractDetails.contract.symbol for sd in scanData]
 print(symbols)
 
+for symbol in symbols:
+    qualify(symbol)
+
 # CREATE CONTRACTS FOR SAID SYMBOLS
 
 contracts = [Forex(pair) for pair in ('EURUSD', 'USDJPY', 'GBPUSD', 'USDCHF', 'USDCAD', 'AUDUSD')]
