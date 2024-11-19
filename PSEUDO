@@ -45,6 +45,8 @@ ib.pendingTickersEvent -= onPendingTickers
 
 # SET UP BRACKETED ORDERS (BASED ON POSITIVE MOVEMENT)
 
+be sure that once a stock has been bought, the stock is no longer in play to be rebought and rebought in microseconds after one another!!!
+
 # LOG DATA FOR REVIEW
 
 # LOOP THROUGHOUT DAYTIME
