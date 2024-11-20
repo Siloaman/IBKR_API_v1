@@ -36,6 +36,10 @@ for contract in contracts:
 
 # TRACK THE CONTRACTS / OR JUST MAKE SPLIT SECOND DECISIONS BASED ON WHAT THE DATA SAYS NOW.
 
+# get average range of previous 2 bars leading up to PM, and also average range of last 6 bars up to PM.
+# if we came out of downtrend, we want 2-4 bars of SY consolidation
+# if we just have consolidation at SY we should know the ranges average to determine true PM
+
 # question: when we get historical bars (say last 5), do we get last 5 fully formed, or last 4 FF and the 5th currently forming in minute 4?
 
 # track changing tickers every 30 seconds and update values
