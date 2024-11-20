@@ -40,6 +40,86 @@ for contract in contracts:
 # if we came out of downtrend, we want 2-4 bars of SY consolidation
 # if we just have consolidation at SY we should know the ranges average to determine true PM
 
+OPEN, HIGH, LOW, CLOSE
+0.32, 0.41, 0.32, 0.37
+0.37, 0.43, 0.36, 0.42
+0.42, 0.43, 0.32, 0.38
+0.38, 0.51, 0.36, 0.50
+0.50, 0.98, 0.48, 0.87
+
+Here's the Python code to create a DataFrame from the given data:
+
+python
+Copy code
+import pandas as pd
+
+# Data
+data = {
+    "OPEN": [0.32, 0.37, 0.42, 0.38, 0.50],
+    "HIGH": [0.41, 0.43, 0.43, 0.51, 0.98],
+    "LOW": [0.32, 0.36, 0.32, 0.36, 0.48],
+    "CLOSE": [0.37, 0.42, 0.38, 0.50, 0.87],
+}
+
+# Create DataFrame
+df = pd.DataFrame(data)
+
+# Display the DataFrame
+print(df)
+
+
+To access the entire first row:
+python
+Copy code
+first_row = df.loc[0]
+print(first_row)
+
+To get the CLOSE value of the first row:
+
+python
+Copy code
+close_value_first_row = df.loc[0, "CLOSE"]
+print(close_value_first_row)  # Output: 0.37
+To get the HIGH value of the third row:
+
+python
+Copy code
+high_value_third_row = df.loc[2, "HIGH"]
+print(high_value_third_row)  # Output: 0.43
+
+
+
+o calculate the mean range of the values in the DataFrame (excluding the last line), the range is defined as the difference between the HIGH and LOW for each row. Here's how you can calculate it:
+
+Python Code
+python
+Copy code
+# Exclude the last row
+df_subset = df.iloc[:-1]
+
+# Calculate the range (HIGH - LOW) for each row
+df_subset["RANGE"] = df_subset["HIGH"] - df_subset["LOW"]
+
+# Calculate the mean range
+mean_range = df_subset["RANGE"].mean()
+
+print(f"Mean Range (excluding last line): {mean_range}")
+
+
+
+Here’s the Python code used to calculate the range of the last line and the percentage difference:
+
+python
+Copy code
+# Calculate the range for the last row
+last_row_range = df.iloc[-1]["HIGH"] - df.iloc[-1]["LOW"]
+
+# Calculate the percentage difference between the mean range and the last row range
+percentage_difference = ((last_row_range - mean_range) / mean_range) * 100
+
+print(f"Range of the last line: {last_row_range}")
+print(f"Percentage difference: {percentage_difference}%")
+
 # question: when we get historical bars (say last 5), do we get last 5 fully formed, or last 4 FF and the 5th currently forming in minute 4?
 
 # track changing tickers every 30 seconds and update values
