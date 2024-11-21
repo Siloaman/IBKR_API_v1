@@ -36,6 +36,24 @@ for contract in contracts:
 
 # TRACK THE CONTRACTS / OR JUST MAKE SPLIT SECOND DECISIONS BASED ON WHAT THE DATA SAYS NOW.
 
+
+contract = Stock('TSLA', 'SMART', 'USD')
+
+ib.reqHeadTimeStamp(contract, whatToShow='TRADES', useRTH=True)
+datetime.datetime(2010, 6, 29, 8, 0)
+To request hourly data of the last 60 trading days:
+
+bars = ib.reqHistoricalData(
+        contract,
+        endDateTime='',
+        durationStr='60 D',
+        barSizeSetting='1 hour',
+        whatToShow='TRADES',
+        useRTH=True,
+        formatDate=1)
+bars[0]
+BarData(date=datetime.datetime(2019, 10, 4, 15, 30), open=231.82, high=234.78, low=230.29, close=233.06, volume=12066, average=232.914, barCount=5981)
+
 # get average range of previous 2 bars leading up to PM, and also average range of last 6 bars up to PM.
 # if we came out of downtrend, we want 2-4 bars of SY consolidation
 # if we just have consolidation at SY we should know the ranges average to determine true PM
