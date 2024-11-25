@@ -18,6 +18,9 @@
 ![Nov13_MVST](https://github.com/user-attachments/assets/066b9973-7ed3-448d-bfed-de9c0fb50e9a)
 ![20p](https://github.com/user-attachments/assets/cfc9779f-f38a-425d-a876-455ddd95963d)
 ![Nov14_PULM](https://github.com/user-attachments/assets/357ba229-ceea-40f9-b03e-d61a8cf0f9c7)
+![Nov25_SMTK](https://github.com/user-attachments/assets/cfe9f8e0-882e-4e88-a6a6-116029c5d63a)
+![Nov25_ZENA](https://github.com/user-attachments/assets/ee89d35b-bb2e-45ad-bdf7-562426b04cd2)
+
 
 
 
