@@ -21,6 +21,7 @@
 ![Nov14_PULM](https://github.com/user-attachments/assets/357ba229-ceea-40f9-b03e-d61a8cf0f9c7)
 ![Nov25_SMTK](https://github.com/user-attachments/assets/cfe9f8e0-882e-4e88-a6a6-116029c5d63a)
 ![Nov25_ZENA](https://github.com/user-attachments/assets/ee89d35b-bb2e-45ad-bdf7-562426b04cd2)
+![plus_ten](https://github.com/user-attachments/assets/8a71359d-e831-4331-bc2e-c4cd202d47d3)
 
 
 
