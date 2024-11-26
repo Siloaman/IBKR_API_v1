@@ -22,6 +22,7 @@
 ![Nov25_SMTK](https://github.com/user-attachments/assets/cfe9f8e0-882e-4e88-a6a6-116029c5d63a)
 ![Nov25_ZENA](https://github.com/user-attachments/assets/ee89d35b-bb2e-45ad-bdf7-562426b04cd2)
 ![plus_ten](https://github.com/user-attachments/assets/8a71359d-e831-4331-bc2e-c4cd202d47d3)
+![Nov26_VSEE](https://github.com/user-attachments/assets/a579e5a6-2fa9-4d41-80bd-b1b3c6cf576a)
 
 
 
