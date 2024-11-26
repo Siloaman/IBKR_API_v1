@@ -1,7 +1,7 @@
 * THE PURPOSE OF GETTING RICH IS TO BUY MENTORS TO DAILY ENGAGE MY FAMILY IN LEARNIGN ACTIVITIES AND GROWING.
 * ITS HARD TO SELF-MOTIVATE, SO WE WILL HAVE PEOPLE IN OUR LIVES INSTRUCTING OUR PROGRESS (COOKING DINNER, ROBOTICS, LANGUAGE, ETC)
 * KEEP OURSELVES BUSY AND FULFILLING GOALS AND PURPOSES ALWAYS
-* ROYALTIES FOR EMPLOYEES!!
+* ROYALTIES FOR EMPLOYEES!! https://www.realtor.ca/on/toronto/businesses-for-sale
 
 * have accounts set up for friends that built up to 40K USD, then make successful trades once a month. if it hits +10% (~5500 cad) then send the money directly to their chequing account and cease trades for the rest of the month so that the rest of the days belong to me without competition)
 
