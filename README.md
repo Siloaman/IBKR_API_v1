@@ -28,6 +28,7 @@
 ![plus_ten](https://github.com/user-attachments/assets/8a71359d-e831-4331-bc2e-c4cd202d47d3)
 ![Nov26_VSEE](https://github.com/user-attachments/assets/a579e5a6-2fa9-4d41-80bd-b1b3c6cf576a)
 ![Nov27_VCIG](https://github.com/user-attachments/assets/0fd097c7-de6b-47d8-b40d-98250aed9d37)
+![Nov27_WAI](https://github.com/user-attachments/assets/24750646-2704-464e-baf3-dd2803585712)
 
 
 
