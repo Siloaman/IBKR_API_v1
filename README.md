@@ -29,7 +29,8 @@
 ![Nov26_VSEE](https://github.com/user-attachments/assets/a579e5a6-2fa9-4d41-80bd-b1b3c6cf576a)
 ![Nov27_VCIG](https://github.com/user-attachments/assets/0fd097c7-de6b-47d8-b40d-98250aed9d37)
 ![Nov27_WAI](https://github.com/user-attachments/assets/24750646-2704-464e-baf3-dd2803585712)
-![Nov29_AIEV](https://github.com/user-attachments/assets/ab18f5b1-5ccd-43c1-b67d-6f33a16febe3)
+![Nov29_AIEV](https://github.com/user-attachments/assets/a82a2358-ef9f-403c-88c3-320bfefd6af1)
+
 
 
 
