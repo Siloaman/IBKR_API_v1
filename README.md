@@ -30,6 +30,7 @@
 ![Nov27_VCIG](https://github.com/user-attachments/assets/0fd097c7-de6b-47d8-b40d-98250aed9d37)
 ![Nov27_WAI](https://github.com/user-attachments/assets/24750646-2704-464e-baf3-dd2803585712)
 ![Nov29_AIEV](https://github.com/user-attachments/assets/a82a2358-ef9f-403c-88c3-320bfefd6af1)
+![PASG](https://github.com/user-attachments/assets/1f936cbb-4e81-4fd4-9bcc-2982cbf1c487)
 
 
 
