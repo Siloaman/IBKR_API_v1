@@ -7,6 +7,8 @@
 
 * FIRE PITS and BARBEQUES IN NATURE
 
+* AA4436	10015810 MANITOBA LTD OA KLT AUTO	Kadhim Alabdulridha
+
 * Nov25/24 - when ppl ask questions and are not understanding - its because they have certain assumptions
 * and the task or explanation doesn't fit into how they view the situation - ask them what their primary
 * assumptions of the situation are first.
