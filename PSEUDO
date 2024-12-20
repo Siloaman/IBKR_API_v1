@@ -16,6 +16,8 @@ tagValues = [
     TagValue('usdVolumeAbove', 0.10),
     TagValue('priceBelow', 10)]
 
+# GIVES AFTER-HOURS VALUES if its run past market hours
+
 # the tagValues are given as 3rd argument; the 2nd argument must always be an empty list
 # (IB has not documented the 2nd argument and it's not clear what it does)
 scanData = ib.reqScannerData(sub, [], tagValues)
