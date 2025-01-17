@@ -34,6 +34,7 @@
 ![Nov29_AIEV](https://github.com/user-attachments/assets/a82a2358-ef9f-403c-88c3-320bfefd6af1)
 ![PASG](https://github.com/user-attachments/assets/1f936cbb-4e81-4fd4-9bcc-2982cbf1c487)
 ![change_orders](https://github.com/user-attachments/assets/4e4221f8-bcbb-40b5-a8f6-74f9fd78c4f4)
+![stats](https://github.com/user-attachments/assets/2057ace6-06a9-4a06-b3b2-a305d16a3f92)
 
 
 
