@@ -1,0 +1,28 @@
+order.orderType = "LMT"
+order.lmtPrice = limitPrice
+
+order.orderType = "MKT"
+order.totalQuantity = quantity
+
+order.orderType = "STP"
+order.auxPrice = stopPrice
+
+order = Order()
+order.action = action
+order.orderType = "STP LMT"
+order.totalQuantity = quantity
+order.lmtPrice = limitPrice
+order.auxPrice = stopPrice
+
+order = Order()
+order.totalQuantity = quantity
+order.action = action
+order.orderType = "STP PRT"
+order.auxPrice = stopPrice
+
+Stop with ProtectionCopy Location
+A Stop with Protection order combines the functionality of a stop limit order with a market with protection order. 
+The order is set to trigger at a specified stop price. When the stop price is penetrated, the order is triggered as a 
+market with protection order, which means that it will fill within a specified protected price range equal to the 
+trigger price +/- the exchange-defined protection point range. Any portion of the order that does not fill within this 
+protected range is submitted as a limit order at the exchange-defined trigger price +/- the protection points.
