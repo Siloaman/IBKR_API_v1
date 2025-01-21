@@ -14,7 +14,9 @@ STARTED PROJECT AUGUST 30, 2024
 * Nov25/24 - when ppl ask questions and are not understanding - its because they have certain assumptions
 * and the task or explanation doesn't fit into how they view the situation - ask them what their primary
 * assumptions of the situation are first.
-* 
+
+![IMG_20250121_165050175](https://github.com/user-attachments/assets/56694ca4-aaaa-4f30-858f-39a682d1cbd8)
+
 ![Screenshot_20250118-101321](https://github.com/user-attachments/assets/616b2cfe-9edb-471a-82e2-9e53ad351715)
 
 ![Oct15_DRUG_0](https://github.com/user-attachments/assets/8db4848a-10c1-465e-9993-68615a015c0c)
