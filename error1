@@ -1,0 +1,16 @@
+Error 162, reqId 3: Historical Market Data Service error message:API scanner subscription cancelled: 3
+C:\Users\siloa\AppData\Local\Temp\ipykernel_3924\3930426327.py:117: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_subset["RANGE"] = df_subset_duo["high"] - df_subset_duo["low"]
+C:\Users\siloa\AppData\Local\Temp\ipykernel_3924\3930426327.py:132: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_subset["BODY"] = df_subset_prime["close"] - df_subset_prime["open"]
+C:\Users\siloa\AppData\Local\Temp\ipykernel_3924\3930426327.py:117: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
