@@ -9,6 +9,8 @@ STARTED PROJECT AUGUST 30, 2024
 
 * FIRE PITS and BARBEQUES IN NATURE
 
+* SUDOKU and other puzzles
+
 * AA4436	10015810 MANITOBA LTD OA KLT AUTO	Kadhim Alabdulridha
 
 * Nov25/24 - when ppl ask questions and are not understanding - its because they have certain assumptions
