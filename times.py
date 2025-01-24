@@ -11,7 +11,7 @@ time_slot_list = [ "9:35", "9:40", "9:45", "9:50", "9:55", "10:00",
                   "15:05", "15:10", "15:15", "15:20", "15:25", "15:30", "15:35", "15:40", "15:45", "15:50", "15:55" ]
 
 def order_status(trade, fill):
-  # can i actually grab trade.orderstatus.status ??
+  # can i actually grab trade.orderstatus.status == "Filled" or not ?? I need to make sure I don't mess up my accounting with incomplete blocks of assets being accounted for..
 
 
 def start_trading_loop():
