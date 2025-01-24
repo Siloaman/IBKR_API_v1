@@ -1,4 +1,5 @@
 # schedule.every().minute.at(":17").do(job)    # can i flip between (":00") and (":05") ???
+# schedule.every().day.at("10:30").do(job)
 # schedule.every().wednesday.at("13:15").do(job)
 
 time_slot_list = [ "9:35", "9:40", "9:45", "9:50", "9:55", "10:00", 
