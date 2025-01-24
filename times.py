@@ -15,26 +15,18 @@ def order_status(trade, fill):
 
 
 def start_trading_loop():
-  schedule.every().minute.at(":00").do(job)
-  schedule.every().minute.at(":05").do(job)
-  schedule.every().minute.at(":10").do(job)
-  schedule.every().minute.at(":15").do(job)
-  schedule.every().minute.at(":20").do(job)
-  schedule.every().minute.at(":25").do(job)
-  schedule.every().minute.at(":30").do(job)
-  schedule.every().minute.at(":35").do(job)
-  schedule.every().minute.at(":40").do(job)
-  schedule.every().minute.at(":45").do(job)
-  schedule.every().minute.at(":50").do(job)
-  schedule.every().minute.at(":55").do(job)
-
-
-def cancel_all_jobs():
-  schedule.clear()
-
-schedule.every().day.at("16:00").do(cancel_all_jobs)
-
-
+  schedule.every().minute.at(":00").until("16:00").do(job)
+  schedule.every().minute.at(":05").until("16:00").do(job)
+  schedule.every().minute.at(":10").until("16:00").do(job)
+  schedule.every().minute.at(":15").until("16:00").do(job)
+  schedule.every().minute.at(":20").until("16:00").do(job)
+  schedule.every().minute.at(":25").until("16:00").do(job)
+  schedule.every().minute.at(":30").until("16:00").do(job)
+  schedule.every().minute.at(":35").until("16:00").do(job)
+  schedule.every().minute.at(":40").until("16:00").do(job)
+  schedule.every().minute.at(":45").until("16:00").do(job)
+  schedule.every().minute.at(":50").until("16:00").do(job)
+  schedule.every().minute.at(":55").until("16:00").do(job)
 
 
 # Each code.py is tied to a unique user account # ( so that it cannot be infinitely shared with friends )
