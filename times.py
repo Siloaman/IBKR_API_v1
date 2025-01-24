@@ -1,3 +1,4 @@
+# https://schedule.readthedocs.io/en/stable/examples.html#
 # schedule.every().minute.at(":17").do(job)    # can i flip between (":00") and (":05") ???
 # schedule.every().day.at("10:30").do(job)
 # schedule.every().wednesday.at("13:15").do(job)
