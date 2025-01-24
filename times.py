@@ -10,6 +10,10 @@ time_slot_list = [ "9:35", "9:40", "9:45", "9:50", "9:55", "10:00",
                   "14:05", "14:10", "14:15", "14:20", "14:25", "14:30", "14:35", "14:40", "14:45", "14:50", "14:55", "15:00", 
                   "15:05", "15:10", "15:15", "15:20", "15:25", "15:30", "15:35", "15:40", "15:45", "15:50", "15:55" ]
 
+def order_status(trade, fill):
+  # can i actually grab trade.orderstatus.status ??
+
+
 def start_trading_loop():
   schedule.every().minute.at(":00").do(job)
   schedule.every().minute.at(":05").do(job)
