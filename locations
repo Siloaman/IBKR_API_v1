@@ -1,0 +1,110 @@
+df_subset = df[["date", "open", "high", "low", "close"]]
+        > df_subset_triad = df_subset.iloc[2:]                # GET LAST THREE ROWS
+        df_subset_duo = df_subset_triad.iloc[:-1]           # GET FIRST TWO OF THREE ROWS
+        df_subset_prime = df_subset_triad.iloc[2:]          # GET LAST OF THREE ROWS
+        df_subset["RANGE"] = df_subset_duo["high"] - df_subset_duo["low"]
+        
+        # testing
+        current_time = datetime.datetime.now()
+        f.write("went thru dataframe formation: \n")
+        f.write(str(current_time) + "\n\n")
+        
+        range_max = df_subset["RANGE"].max()
+
+        if(range_max == 0.0):
+            range_max = 0.001
+            
+        # testing
+        pending_stop_loss_orders.append(range_max)
+        current_time = datetime.datetime.now()
+        f.write("getting ranges: " + str(range_max) + "\n")
+        f.write(str(current_time) + "\n\n")  
+          
+        
+        df_subset["BODY"] = df_subset_prime["close"] - df_subset_prime["open"]
+        body_size = df_subset["BODY"].max()
+        
+        if(body_size == 0.0):
+            body_size = 0.001
+            
+        # testing
+        pending_stop_loss_orders.append(body_size)
+        current_time = datetime.datetime.now()
+        f.write("getting body size: " + str(body_size) + "\n")
+        f.write(str(current_time) + "\n\n")
+        
+            
+        df_subset["LOW_TAIL"] = df_subset_prime["open"] - df_subset_prime["low"]
+        low_tail_size = df_subset["LOW_TAIL"].max()
+
+        if(low_tail_size == 0.0):
+            low_tail_size = 0.001
+            
+        tail_body_ratio = body_size / low_tail_size
+        
+        # testing
+        pending_stop_loss_orders.append(tail_body_ratio)
+        current_time = datetime.datetime.now()
+        f.write("getting tail sizes: " + str(tail_body_ratio) + "\n")
+        f.write(str(current_time) + "\n\n")
+
+
+
+'EVAX',
+ date        2025-01-23 15:35:00-05:00
+ open                             2.76
+ high                             2.77
+ low                              2.72
+ close                            2.77
+ volume                         1864.0
+ average                         2.752
+ barCount                           16
+ Name: 0, dtype: object,
+ date        2025-01-23 15:40:00-05:00
+ open                             2.77
+ high                              2.8
+ low                              2.75
+ close                            2.76
+ volume                         6422.0
+ average                         2.786
+ barCount                           31
+ Name: 1, dtype: object,
+ date        2025-01-23 15:45:00-05:00
+ open                             2.77
+ high                             4.16
+ low                              2.77
+ close                             3.8
+ volume                       211410.0
+ average                         3.621
+ barCount                          798
+ Name: 2, dtype: object,
+ date        2025-01-23 15:50:00-05:00
+ open                              3.8
+ high                             4.19
+ low                              3.25
+ close                            3.25
+ volume                       356377.0
+ average                         3.699
+ barCount                         1192
+ Name: 3, dtype: object,
+ date        2025-01-23 15:55:00-05:00
+ open                             3.25
+ high                              4.0
+ low                              3.25
+ close                            3.76
+ volume                       216393.0
+ average                         3.676
+ barCount                          697
+ Name: 4, dtype: object,
+ date        2025-01-24 09:30:00-05:00
+ open                             6.96
+ high                             7.02
+ low                              6.08
+ close                             6.1
+ volume                      1003649.0
+ average                       6.53083
+ barCount                         3321
+ Name: 5, dtype: object,
+ > 1.3900000000000001,
+ 0.5099999999999998,
+ 0.5795454545454544,
