@@ -17,6 +17,8 @@ STARTED PROJECT AUGUST 30, 2024
 * and the task or explanation doesn't fit into how they view the situation - ask them what their primary
 * assumptions of the situation are first.
 
+* too many ppl answer the problem, not the question
+
 ![IMG_20250121_165050175](https://github.com/user-attachments/assets/56694ca4-aaaa-4f30-858f-39a682d1cbd8)
 
 ![Screenshot_20250118-101321](https://github.com/user-attachments/assets/616b2cfe-9edb-471a-82e2-9e53ad351715)
