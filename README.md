@@ -48,7 +48,7 @@ STARTED PROJECT AUGUST 30, 2024
 ![stats](https://github.com/user-attachments/assets/2057ace6-06a9-4a06-b3b2-a305d16a3f92)
 ![cancel_order_try1](https://github.com/user-attachments/assets/234eb9ec-36ac-4bc7-bd99-650421098740)
 ![ticks](https://github.com/user-attachments/assets/66f4fc24-90a2-4e4d-b255-73e080fd325c)
-![ticks2](https://github.com/user-attachments/assets/5b9b22b6-ae6a-43cb-9209-3c38dbcfa5df)
+![ticks2](https://github.com/user-attachments/assets/d814402e-2e5c-4c2a-8540-747461a4bb42)
 
 
 
