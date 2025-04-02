@@ -52,6 +52,7 @@ STARTED PROJECT AUGUST 30, 2024
 ![QNTM](https://github.com/user-attachments/assets/2c043a23-fe36-4965-9646-e862eb6acf89)
 ![NVFY](https://github.com/user-attachments/assets/60ef66fb-15dd-417f-a4ad-c4433456fda9)
 ![SCNX](https://github.com/user-attachments/assets/1ddc25c6-b42d-43a0-8310-9e503c245593)
+![BIAF](https://github.com/user-attachments/assets/a813ca5b-2535-4311-9ae9-e1439a9d1597)
 
 
 
