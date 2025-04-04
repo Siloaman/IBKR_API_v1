@@ -19,6 +19,8 @@ STARTED PROJECT AUGUST 30, 2024
 
 * too many ppl answer the problem, not the question
 
+![img_1_1743767176424](https://github.com/user-attachments/assets/6e611f6b-9478-4bb0-813f-9e9c3070e068)
+
 ![IMG_20250121_165050175](https://github.com/user-attachments/assets/56694ca4-aaaa-4f30-858f-39a682d1cbd8)
 ![mar10_trades](https://github.com/user-attachments/assets/edbaec7b-0d05-48d1-8d0e-dd6090af7027)
 
