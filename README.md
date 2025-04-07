@@ -19,6 +19,11 @@ STARTED PROJECT AUGUST 30, 2024
 
 * too many ppl answer the problem, not the question
 
+
+![ChatGPT Image Apr 7, 2025, 07_56_26 AM](https://github.com/user-attachments/assets/92a91917-599b-4644-88c9-d80ef24e89b6)
+![ChatGPT Image Apr 7, 2025, 08_08_18 AM](https://github.com/user-attachments/assets/c5edf97f-8c20-4af1-8d74-2a7ed9f664ec)
+
+
 ![img_1_1743767176424](https://github.com/user-attachments/assets/6e611f6b-9478-4bb0-813f-9e9c3070e068)
 
 ![IMG_20250121_165050175](https://github.com/user-attachments/assets/56694ca4-aaaa-4f30-858f-39a682d1cbd8)
