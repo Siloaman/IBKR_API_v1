@@ -20,6 +20,8 @@ STARTED PROJECT AUGUST 30, 2024
 * too many ppl answer the problem, not the question
 
 
+![img_3_1744147639247](https://github.com/user-attachments/assets/8b06cd20-45f1-458f-ab70-fb68a66a058e)
+
 ![488906494_661120596658539_4847862560328001394_n](https://github.com/user-attachments/assets/4b12bbde-aade-48c6-bde9-86bb7e4e6dc0)
 
 ![ChatGPT Image Apr 7, 2025, 07_56_26 AM](https://github.com/user-attachments/assets/92a91917-599b-4644-88c9-d80ef24e89b6)
