@@ -1,25 +1,5 @@
 STARTED PROJECT AUGUST 30, 2024
 
-* THE PURPOSE OF GETTING RICH IS TO HIRE MENTORS TO DAILY ENGAGE MY FAMILY IN LEARNING ACTIVITIES AND GROWING.
-* ITS HARD TO SELF-MOTIVATE, SO WE WILL HAVE PEOPLE IN OUR LIVES INSTRUCTING OUR PROGRESS (COOKING DINNER, ROBOTICS, LANGUAGE, ETC)
-* KEEP OURSELVES BUSY AND FULFILLING GOALS AND PURPOSES ALWAYS
-* ROYALTIES FOR EMPLOYEES!! https://www.realtor.ca/on/toronto/businesses-for-sale
-
-* have accounts set up for friends that built up to 20K USD, then make successful trades once a month. if it hits +10% (~5500 cad) then send the money directly to their chequing account and cease trades for the rest of the month so that the rest of the days belong to me without competition)
-
-* FIRE PITS and BARBEQUES IN NATURE
-
-* SUDOKU and other puzzles
-
-* AA4436	10015810 MANITOBA LTD OA KLT AUTO	Kadhim Alabdulridha
-
-* Nov25/24 - when ppl ask questions and are not understanding - its because they have certain assumptions
-* and the task or explanation doesn't fit into how they view the situation - ask them what their primary
-* assumptions of the situation are first.
-
-* too many ppl answer the problem, not the question
-
-
 ![img_3_1744147639247](https://github.com/user-attachments/assets/8b06cd20-45f1-458f-ab70-fb68a66a058e)
 ![488906494_661120596658539_4847862560328001394_n](https://github.com/user-attachments/assets/4b12bbde-aade-48c6-bde9-86bb7e4e6dc0)
 
