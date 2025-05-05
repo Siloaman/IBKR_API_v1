@@ -30,6 +30,12 @@ def start_trading_loop():
   schedule.every().minute.at(":55").until("16:00").do(job)
 
 
+# Schedule the task to start every day at 9:44AM
+schedule.every().day.at("09:44").do(start_trading_loop)
+while True:
+    schedule.run_pending()  
+
+
 # Each code.py is tied to a unique user account # ( so that it cannot be infinitely shared with friends )
 # Max of 4 on-going trades at a time with a max of $2500 USD per trade [ max $10,000 USD at any time ]
 # Excess funds are redirected into divvy stocks
