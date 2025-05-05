@@ -1,1 +1,8 @@
+ib = IB()
+ib.connect(host='127.0.0.1', port=7496, clientId=0)
 
+# disconnect if code.py has been copied and given to other users
+acct_values = ib.accountValues()
+account_id = acct_values[0][0]
+if(account_id != 'U########'):
+    ib.disconnect()
