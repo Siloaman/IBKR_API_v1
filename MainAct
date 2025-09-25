@@ -1,0 +1,87 @@
+package com.siloamanholdings.pick4;
+
+
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class MainActivity extends AppCompatActivity {
+
+    private EditText editTextCurrWin;
+    private Button buttonCalculate;
+    private TextView textViewResults;
+
+    // All specs to try
+    private final int[][] specs = {
+
+            {3, 3, 9, 6},
+            {3, 9, 3, 6},
+            {6, 9, 3, 3},
+            {9, 6, 3, 3},
+            {3, 3, 3, 3},
+            {9, 9, 9, 9}
+
+    };
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        editTextCurrWin = findViewById(R.id.editTextCurrWin);
+        buttonCalculate = findViewById(R.id.buttonCalculate);
+        textViewResults = findViewById(R.id.textViewResults);
+
+        buttonCalculate.setOnClickListener(v -> {
+            try {
+                // Parse input currWin
+                int[] currWin = parseInput(editTextCurrWin.getText().toString());
+
+                StringBuilder finalOutput = new StringBuilder();
+
+                // Loop over each spec
+                for (int[] spec : specs) {
+                    finalOutput.append("\n=== Using spec [");
+                    for (int i = 0; i < spec.length; i++) {
+                        finalOutput.append(spec[i]);
+                        if (i < spec.length - 1) finalOutput.append(", ");
+                    }
+                    finalOutput.append("] ===\n");
+
+                    CascadeCalculator.Result result =
+                            CascadeCalculator.generateRowsWithCascade(currWin, spec, 9);
+
+                    // Format output for this spec
+                    for (int i = 0; i < result.rows.size(); i++) {
+                        finalOutput.append("Row ").append(i + 1).append(": [");
+                        for (int j = 0; j < result.rows.get(i).length; j++) {
+                            finalOutput.append(result.rows.get(i)[j]);
+                            if (j < result.rows.get(i).length - 1) finalOutput.append(", ");
+                        }
+                        finalOutput.append("]   Cascade total: ")
+                                .append(result.cascadeTotals[i])
+                                .append("\n");
+                    }
+                    finalOutput.append("\n");
+                }
+
+                textViewResults.setText(finalOutput.toString());
+
+            } catch (Exception e) {
+                textViewResults.setText("Error: Please check your input format!");
+            }
+        });
+    }
+
+    // Helper: parse comma-separated string into int[]
+    private int[] parseInput(String input) {
+        String[] parts = input.split("");
+        int[] nums = new int[parts.length];
+        for (int i = 0; i < parts.length; i++) {
+            nums[i] = Integer.parseInt(parts[i].trim());
+        }
+        return nums;
+    }
+}
