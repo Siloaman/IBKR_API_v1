@@ -1,0 +1,60 @@
+package com.siloamanholdings.pick4;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CascadeCalculator {
+
+    public static Result generateRowsWithCascade(int[] currWin, int[] spec, int iterations) {
+        List<int[]> rows = new ArrayList<>();
+        int[] cascadeTotals = new int[iterations];
+
+        // First row
+        int[] current = new int[spec.length];
+        for (int i = 0; i < spec.length; i++) {
+            current[i] = (spec[i] + currWin[i]) % 10;
+        }
+        rows.add(current.clone());
+
+        // Subsequent rows
+        for (int it = 1; it < iterations; it++) {
+            int[] next = new int[spec.length];
+            for (int i = 0; i < spec.length; i++) {
+                next[i] = (spec[i] + current[i]) % 10;
+            }
+            rows.add(next.clone());
+            current = next;
+        }
+
+        // Cascade calculation
+        for (int i = 0; i < iterations - 1; i++) {
+            int[] r1 = rows.get(i);
+            int[] r2 = rows.get(i + 1);
+            int subtotal = 0;
+
+            for (int c = 0; c < r1.length; c++) {
+                // Left neighbor
+                if (c - 1 >= 0) {
+                    subtotal += r1[c] + r2[c - 1] + r2[c];
+                }
+                // Right neighbor
+                if (c + 1 < r2.length) {
+                    subtotal += r1[c] + r2[c] + r2[c + 1];
+                }
+            }
+            cascadeTotals[i + 1] = subtotal;
+        }
+
+        return new Result(rows, cascadeTotals);
+    }
+
+    public static class Result {
+        public List<int[]> rows;
+        public int[] cascadeTotals;
+
+        public Result(List<int[]> rows, int[] cascadeTotals) {
+            this.rows = rows;
+            this.cascadeTotals = cascadeTotals;
+        }
+    }
+}
