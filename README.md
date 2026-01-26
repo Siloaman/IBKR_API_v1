@@ -46,6 +46,7 @@ STARTED PROJECT AUGUST 30, 2024
 
 
 
+![Screenshot_26-1-2026_161715_finance yahoo com](https://github.com/user-attachments/assets/6c8bc88c-6a76-4efa-b359-4d61028847dd)
 
 
 
