@@ -49,6 +49,10 @@ STARTED PROJECT AUGUST 30, 2024
 
 ![Screenshot_26-1-2026_161715_finance yahoo com](https://github.com/user-attachments/assets/6c8bc88c-6a76-4efa-b359-4d61028847dd)
 
+<img width="1200" height="2000" alt="Screenshot_20260205_224513_Samsung Internet" src="https://github.com/user-attachments/assets/bf069239-1641-4907-a6fd-d779a2066f50" />
+<img width="1200" height="2000" alt="Screenshot_20260206_234530_Samsung Internet" src="https://github.com/user-attachments/assets/9eadaaff-2f93-45a1-9186-ce367bf3023d" />
+<img width="1080" height="2424" alt="Screenshot_20260208-123923" src="https://github.com/user-attachments/assets/9ae89a2a-9c91-4d2b-b966-8ad396193a87" />
+<img width="1200" height="2000" alt="Screenshot_20260209_212600_Samsung Internet" src="https://github.com/user-attachments/assets/0b660059-95f3-47be-b582-a1a64d34c493" />
 
 
 
