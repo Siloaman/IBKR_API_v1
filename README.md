@@ -60,7 +60,7 @@ STARTED PROJECT AUGUST 30, 2024
 <img width="1675" height="879" alt="Jan24_24_VSME" src="https://github.com/user-attachments/assets/58a07c70-67fa-4a2c-b4ea-f37313fad850" />
 
 
-<img width="1667" height="877" alt="Jan24_24_SPRC" src="https://github.com/user-attachments/assets/7e00a98e-55e9-4e9a-b71b-4e41ce88a99f" />
+
 
 
 mimimum price variation of 0.0001
